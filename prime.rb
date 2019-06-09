@@ -1,10 +1,9 @@
 def is_prime?(number)
-	idx = 1
-	result = nil
+	index = 1
+	results = nil
 	counter = 0 
 	
-
-	while idx <= number 
+	while idex <= number 
 	if number % idx == 0 
 		counter = counter + 1
 	end
