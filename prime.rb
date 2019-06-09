@@ -1,11 +1,22 @@
-def prime?(number)
-  start = 2
-  if number > 1
-    range = (start..number-1).to_a
-    range.none? do |number_to_test| 
-      number % number_to_test == 0
-    end
-  else
-    false
-  end
+def is_prime?(number)
+	idx = 1
+	result = nil
+	counter = 0 
+	
+
+	while idx <= number 
+	if number % idx == 0 
+		counter = counter + 1
+	end
+	idx = idx + 1
+	end
+	
+	if counter > 2 
+		result = false 
+	else 
+		result = true 
+	end
+	
+	return result
+	
 end
