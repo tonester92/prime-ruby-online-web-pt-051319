@@ -3,11 +3,11 @@ def is_prime?(number)
 	results = nil
 	counter = 0 
 	
-	while idex <= number 
-	if number % idx == 0 
+	while index <= number 
+	if number % index == 0 
 		counter = counter + 1
 	end
-	idx = idx + 1
+	index = index + 1
 	end
 	
 	if counter > 2 
@@ -15,7 +15,5 @@ def is_prime?(number)
 	else 
 		result = true 
 	end
-	
 	return result
-	
 end
