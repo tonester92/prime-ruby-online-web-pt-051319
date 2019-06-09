@@ -1,5 +1,5 @@
 def is_prime?(number)
-	index = 1
+	index = -1
 	results = nil
 	counter = 0 
 	
